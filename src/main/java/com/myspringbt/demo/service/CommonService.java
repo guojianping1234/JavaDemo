@@ -1,3 +1,4 @@
+/*
 package com.myspringbt.demo.service;
 
 
@@ -24,12 +25,14 @@ public class CommonService {
         return commonDao.findAllMessage();
     }
 
-    /**
+    */
+/**
      * 对excel 进行操作
      *
      * @param url
      * @return
-     */
+     *//*
+
     public String modifyExcel(String url) {
         try {
             String fileName = url;
@@ -77,14 +80,16 @@ public class CommonService {
 
     }
 
-    /**
+    */
+/**
      * 下载模板
      *
      * @param response
      * @param session
      * @param name
      * @return
-     */
+     *//*
+
     public void downExcel(HttpServletResponse response, HttpSession session, String name) {
         try {
             InputStream inputStream = (InputStream) this.getClass().getClassLoader()
@@ -109,14 +114,16 @@ public class CommonService {
 
     }
 
-    /**
+    */
+/**
      * 加强版本下载模板，修改其模板固定相内容
      *
      * @param req
      * @param res
      * @param session
      * @param name
-     */
+     *//*
+
     public void downWhatExcel(HttpServletRequest req, HttpServletResponse res, HttpSession session, String name) {
         try {
             // 1.下载文件只临时文件夹
@@ -161,15 +168,23 @@ public class CommonService {
     }
 
     public void copy(String[] args) {
-        /* 指定源exe文件的存放路径 */
+        */
+/* 指定源exe文件的存放路径 *//*
+
         String str = "f:/jdk-1_5_0_06-windows-i586-p.exe";
-        /* 指定复制后的exe的目标路径 */
+        */
+/* 指定复制后的exe的目标路径 *//*
+
         String strs = "e:/copy.exe";
-        /* 创建输入和输出流 */
+        */
+/* 创建输入和输出流 *//*
+
         FileInputStream fis = null;
         FileOutputStream fos = null;
         try {
-            /* 将io流和文件关联 */
+            */
+/* 将io流和文件关联 *//*
+
             fis = new FileInputStream(str);
 
             fos = new FileOutputStream(strs);
@@ -210,3 +225,4 @@ public class CommonService {
 
     }
 }
+*/

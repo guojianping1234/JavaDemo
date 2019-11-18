@@ -10,7 +10,7 @@ import org.springframework.jdbc.core.JdbcTemplate;
 
 import javax.sql.DataSource;
 
-@Configuration
+//@Configuration
 public class DataMulSourceConfig {
 
     //当前数据源

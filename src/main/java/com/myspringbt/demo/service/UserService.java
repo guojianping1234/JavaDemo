@@ -1,6 +1,6 @@
+/*
 package com.myspringbt.demo.service;
 
-import com.myspringbt.demo.dao.UserDao;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
@@ -23,3 +23,4 @@ public class UserService {
         return userDao.searchname(name);
     }
 }
+*/
